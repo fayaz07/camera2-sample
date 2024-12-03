@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Camera2-sample</string>
+    <string name="hello">hello</string>
 </resources>

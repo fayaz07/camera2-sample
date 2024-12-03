@@ -6,12 +6,12 @@ plugins {
 
 android {
     namespace = "in.mfayaz.camera2"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "in.mfayaz.camera2"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
@@ -36,6 +36,7 @@ android {
     }
     buildFeatures {
         compose = true
+        viewBinding = true
     }
 }
 
